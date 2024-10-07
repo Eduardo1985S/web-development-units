@@ -1,12 +1,12 @@
 ## 🎨 Comparação de Unidades de Medida no CSS
 ### Este projeto demonstra, de maneira visual e prática, como diferentes unidades de medida em CSS (absolutas e relativas) afetam o layout de uma página web. Através de quadrados coloridos, você poderá observar o comportamento dessas unidades ao alterar o zoom da página ou ao redimensionar a janela do navegador.
 
-##📋 Objetivo do Projeto
+## 📋 Objetivo do Projeto
 ### O principal objetivo deste projeto é ajudar desenvolvedores e estudantes de desenvolvimento web a compreenderem como as diferentes unidades de medida em CSS se comportam em relação ao layout de uma página. Isso inclui o uso de unidades absolutas como pixels e centímetros, e relativas, como em, rem, e vw.
 
-##🚀 Funcionalidades
-🟥 Visualização prática de unidades absolutas (px, cm, mm, in, pt, pc).
-🟩 Demonstração de unidades relativas (em, rem, %, vw, vh), mostrando como elas respondem ao zoom e redimensionamento da janela.
+## 🚀 Funcionalidades
+### 🟥 Visualização prática de unidades absolutas (px, cm, mm, in, pt, pc).
+### 🟩 Demonstração de unidades relativas (em, rem, %, vw, vh), mostrando como elas respondem ao zoom e redimensionamento da janela.
 🟦 Layout dinâmico e responsivo com exemplos fáceis de entender para cada tipo de unidade.
 🔍 Interatividade: Teste o comportamento dos elementos ajustando o zoom ou o tamanho da janela.
 📚 Unidades Utilizadas
