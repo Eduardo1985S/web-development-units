@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Exemplo de unidades absolutas */
+.px-box {
+    width: 100px; /* Fixo */
+    height: 100px; /* Fixo */
+    background-color: #3498db;
+}
+
+.cm-box {
+    width: 3cm; /* Centímetros */
+    height: 3cm;
+    background-color: #e74c3c;
+}
+
+.mm-box {
+    width: 30mm; /* Milímetros */
+    height: 30mm;
+    background-color: #2ecc71;
+}
+
+.in-box {
+    width: 1in; /* Polegadas */
+    height: 1in;
+    background-color: #f1c40f;
+}
+
+.pt-box {
+    width: 72pt; /* Pontos tipográficos */
+    height: 72pt;
+    background-color: #9b59b6;
+}
+
+.pc-box {
+    width: 6pc; /* Picas */
+    height: 6pc;
+    background-color: #e67e22;
+}
+
+/* Exemplo de unidades relativas */
+.em-box {
+    width: 10em; /* Relativo ao tamanho da fonte do elemento pai */
+    height: 10em;
+    background-color: #1abc9c;
+}
+
+.rem-box {
+    width: 10rem; /* Relativo ao tamanho da fonte do elemento raiz (html) */
+    height: 10rem;
+    background-color: #d35400;
+}
+
+.percent-box {
+    width: 50%; /* Relativo ao elemento pai */
+    height: 50%;
+    background-color: #8e44ad;
+}
+
+.vw-box {
+    width: 20vw; /* Relativo à largura da viewport */
+    height: 20vw;
+    background-color: #16a085;
+}
+
+.vh-box {
+    width: 20vh; /* Relativo à altura da viewport */
+    height: 20vh;
+    background-color: #c0392b;
+}
+
+/* Estilos gerais para os quadrados */
+.box {
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
