@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação de Unidades de Medida - Quadrados Coloridos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Comparação de Unidades de Medida</h1>
+    <h2>Unidades Absolutas e Relativas</h2>
+
+    <div class="container">
+        <!-- Unidades Absolutas -->
+        <div class="box px-box">Px</div>
+        <div class="box cm-box">Cm</div>
+        <div class="box mm-box">Mm</div>
+        <div class="box in-box">In</div>
+        <div class="box pt-box">Pt</div>
+        <div class="box pc-box">Pc</div>
+
+        <!-- Unidades Relativas -->
+        <div class="box em-box">Em</div>
+        <div class="box rem-box">Rem</div>
+        <div class="box percent-box">% (Pai)</div>
+        <div class="box vw-box">Vw</div>
+        <div class="box vh-box">Vh</div>
+    </div>
+
+    <h2>Explicação das Unidades</h2>
+    <ul>
+        <li><strong>Px (Pixel):</strong> Valor absoluto fixo, não muda com o zoom.</li>
+        <li><strong>Cm (Centímetro):</strong> Unidades absolutas de comprimento baseadas em dimensões físicas.</li>
+        <li><strong>Mm (Milímetro):</strong> Também uma unidade absoluta baseada em dimensões físicas.</li>
+        <li><strong>In (Polegada):</strong> Unidade absoluta baseada na polegada física (1in = 2,54cm).</li>
+        <li><strong>Pt (Pontos tipográficos):</strong> Unidade tradicional usada na tipografia, onde 1pt = 1/72 de polegada.</li>
+        <li><strong>Pc (Picas):</strong> Uma pica é igual a 12 pontos tipográficos.</li>
+        <li><strong>Em:</strong> Relativa ao tamanho da fonte do elemento pai. Se o elemento pai tem `font-size: 16px`, então 1em = 16px.</li>
+        <li><strong>Rem:</strong> Relativa ao tamanho da fonte do elemento raiz (geralmente o `html`). Isso garante consistência entre elementos diferentes.</li>
+        <li><strong>% (Porcentagem):</strong> Relativo ao tamanho do elemento pai. Se o elemento pai for redimensionado, o tamanho do elemento filho muda proporcionalmente.</li>
+        <li><strong>Vw (Viewport Width):</strong> Relativo à largura da viewport (janela do navegador). 1vw é 1% da largura da viewport.</li>
+        <li><strong>Vh (Viewport Height):</strong> Relativo à altura da viewport. 1vh é 1% da altura da viewport.</li>
+    </ul>
+
+</body>
+</html>
