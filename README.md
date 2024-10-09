@@ -26,7 +26,7 @@ O principal objetivo deste projeto é ajudar desenvolvedores e estudantes de **d
 -   **mm (Milímetro):** Um milésimo de um metro, mais preciso que centímetros.
 -   **in (Polegada):** Unidade física, onde 1 polegada equivale a 2,54 cm.
 -   **pt (Ponto):** Tradicionalmente usado em tipografia, 1pt = 1/72 de polegada.
--   **pc (Pica):** Outra unidade tipográfica, onde 1 pica = 12 pontos.
+-   **pc (Paica):** Outra unidade tipográfica, onde 1 paica = 12 pontos.
 
 ### 🟡 **Unidades Relativas:**
 
